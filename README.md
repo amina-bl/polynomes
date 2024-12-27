@@ -119,3 +119,49 @@ The front-end client is built using **Angular** and serves as the user interface
 - View calculation results in real-time.  
 - Access and manage their calculation history.
 
+
+---
+
+## Getting Started  
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites  
+
+1. **Git**  
+   - Ensure Git is installed. [Download Git](https://git-scm.com/).
+
+2. **Docker**  
+   - Install Docker and Docker Compose. [Get Docker](https://www.docker.com/products/docker-desktop).
+
+3. **Node.js and Angular**  
+   - Install Node.js (v14.11.0) and Angular CLI globally:
+     ```bash
+     npm install -g @angular/cli
+     ```
+
+---
+
+### Backend Setup  
+
+1. **Clone the Project**  
+   ```bash
+   git clone https://github.com/bouslim-saloua/polynomial-project.git
+   cd polynomial-project
+2. **Build and Start Services**
+   - Ensure Docker is running.
+   - Use docker-compose to start all services:
+```sh
+docker-compose up --build
+```
+3. **Verify Services**
+ - Eureka Server: http://localhost:8761
+  - Gateway: http://localhost:8080
+
+### Frontend Setup
+1. **Install Dependencies**
+ ```sh
+  cd frontend/app-polynomial
+  npm install
+ ```
+
