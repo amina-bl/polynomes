@@ -106,10 +106,16 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 ## Services
-- service-user
-- service-calcul-polynomial
-- service-historique
+-**Service-user** :This microservice handles user authentication and management. It uses JWT (JSON Web Token) to ensure secure access control for registered users. Core functionalities include user registration, login, and profile management.
+-**Service-calcul-polynomial** :This microservice is responsible for performing polynomial calculations.
+  It provides APIs to compute the roots of polynomials, supports symbolic factorization, and delivers both exact and approximate solutions depending on the input.
+- **Service-historique** :This microservice stores and manages the history of all polynomial calculations.
+  It ensures users can access their past computations, making it easier to track and review previous results.
 
 ## Front-End (client)
-
+The front-end client is built using **Angular** and serves as the user interface for the polynomial project. 
+ It communicates with the backend services via the Gateway, enabling users to:  
+- Input polynomials for computation.  
+- View calculation results in real-time.  
+- Access and manage their calculation history.
 
