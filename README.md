@@ -157,7 +157,7 @@ docker-compose up --build
 ```
 3. **Verify Services**
  - Eureka Server: http://localhost:8761
-  - Gateway: http://localhost:8080
+  - Gateway: http://localhost:8888
 
 ### Frontend Setup
 1. **Install Dependencies**
@@ -169,7 +169,7 @@ docker-compose up --build
  ```sh
   ng serve --open
  ```
-
+## Video Demonstration
 
 
 
