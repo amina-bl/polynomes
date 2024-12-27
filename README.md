@@ -42,6 +42,7 @@ This project develops an automated tool that calculates the roots of polynomials
 ├── docker-compose.yml
 └── Jenkinsfile
 ```
+![structure](https://github.com/user-attachments/assets/596d4b1e-9b91-4154-b7f9-56d47f162745)
 
 ---
 The application also offers a symbolic factoring feature to simplify polynomials while providing numerical solutions.
