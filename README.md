@@ -5,12 +5,48 @@
 This project develops an automated tool that calculates the roots of polynomials of any degree. By using numerical methods, such as Newton's method, combined with symbolic factoring techniques, this tool allows users to enter a polynomial (e.g., \(x^3 - 6x^2 + 11x - 6\)) and immediately receive exact or approximate roots based on the coefficients and the degree of the polynomial.
 ![calc](https://github.com/user-attachments/assets/f854e669-e020-4c11-b6bb-23e7d6849e75)
 
+---
 
+## Technologies Used
+- **Backend**: Java,Spring Boot
+- **DataBase**: MySql 
+- **Frontend**: Angular,Bootstarap,TypeScript
+- **Containerization**: Docker, Docker Compose
+- **CI/CD**: Jenkins
+
+---
+
+## Structure Project
+
+```plaintext
+.
+├── polynomial-project
+|   ├── Eureka-server
+|        ├──Dockerfile
+│   ├── Gateway
+|       ├── Dockerfile
+│   ├── model
+|      ├── script.py
+|      ├── requiments.txt
+|      └── Dockerfile
+|   ├── service-calcul-polynomial
+|      ├── Dockerfile
+|   ├── service-historique
+|      ├── Dockerfile
+|   ├── service-user
+|      ├── Dockerfile
+|   ├── frontend
+|      ├── app-polynomial
+|      ├── Dockerfile
+|      └── package-lock.json
+├── docker-compose.yml
+└── Jenkinsfile
+```
+
+---
 The application also offers a symbolic factoring feature to simplify polynomials while providing numerical solutions.
 ## Eureka Server
 Eureka Server role in our project is a service registry that plays a central role in the automatic detection of devices and services on a network.
-## Front-End (client)
-
 ## Cloud Gateway
 an API gateway built on top of the Spring Framework, designed to provide a simple, effective way to route requests to various microservices and handle common cross-cutting concerns such as security, monitoring, and resiliency.
 ```sh
@@ -63,5 +99,6 @@ if __name__ == '__main__':
 - service-calcul-polynomial
 - service-historique
 
+## Front-End (client)
 
 
