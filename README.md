@@ -23,26 +23,36 @@ This project develops an automated tool that calculates the roots of polynomials
 ├── polynomial-project
 |   ├── Eureka-server
 |        ├──Dockerfile
+|        ├── src/
+│        └── pom.xml
 │   ├── Gateway
 |       ├── Dockerfile
+|       ├── src/
+│       └── pom.xml
 │   ├── model
 |      ├── script.py
 |      ├── requiments.txt
 |      └── Dockerfile
 |   ├── service-calcul-polynomial
 |      ├── Dockerfile
+|      ├── src/
+│      └── pom.xml
 |   ├── service-historique
 |      ├── Dockerfile
+|      ├── src/
+│      └── pom.xml
 |   ├── service-user
 |      ├── Dockerfile
+|      ├── src/
+│      └── pom.xml
 |   ├── frontend
 |      ├── app-polynomial
 |      ├── Dockerfile
 |      └── package-lock.json
-├── docker-compose.yml
-└── Jenkinsfile
+└── docker-compose.yml
+ 
 ```
-![structure](https://github.com/user-attachments/assets/596d4b1e-9b91-4154-b7f9-56d47f162745)
+![structure](https://github.com/user-attachments/assets/5dfec6d0-f7cc-4933-92bd-0c814245efd5)
 
 ---
 The application also offers a symbolic factoring feature to simplify polynomials while providing numerical solutions.
